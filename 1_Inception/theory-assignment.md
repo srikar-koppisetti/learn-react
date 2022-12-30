@@ -41,3 +41,5 @@ In the second phase where we are deploying code to production or for the users t
 *Differ*
 - In order to over come above issue, we can use deffer. In this when we are parsing the HTML and we come across script tag, it downloaded the script and in parallel it will not stop rendering HTML. Once the HTML rendering is done that is when script will be executed.
 - This will not cause any issues while executing script as HTML is rendered and all DOM elements will be available.
+
+
